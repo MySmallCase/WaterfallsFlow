@@ -1,0 +1,33 @@
+{
+    "code": "200",
+    "msg": "",
+    "data": [
+             {
+             "id": "4",
+             "img": "http://weixin.tj-jn.com/3.jpg",
+             "name": "柯晓华",
+             "votes": "31948",
+             },
+             {
+             "id": "5",
+             "img": "http://weixin.tj-jn.com/1.jpg",
+             "name": "Amber",
+             "votes": "248",
+             },
+             {
+             "id": "6",
+             "img": "http://weixin.tj-jn.com/2.jpg",
+             "name": "陈天星",
+             "votes": "155",
+             },
+             {
+             "id": "7",
+             "img": "http://weixin.tj-jn.com/4.jpg",
+             "name": "百禾jolin",
+             "votes": "1452",
+             }
+    ]
+}
+
+
+
