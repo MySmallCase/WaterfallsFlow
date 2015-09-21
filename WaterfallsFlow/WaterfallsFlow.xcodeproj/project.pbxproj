@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAA3DB91BAFD81200714ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3DB81BAFD81200714ACC /* main.m */; };
+		1FAA3DBC1BAFD81200714ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3DBB1BAFD81200714ACC /* AppDelegate.m */; };
+		1FAA3DBF1BAFD81200714ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3DBE1BAFD81200714ACC /* ViewController.m */; };
+		1FAA3DC21BAFD81200714ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA3DC01BAFD81200714ACC /* Main.storyboard */; };
+		1FAA3DC41BAFD81200714ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA3DC31BAFD81200714ACC /* Assets.xcassets */; };
+		1FAA3DC71BAFD81200714ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA3DC51BAFD81200714ACC /* LaunchScreen.storyboard */; };
+		1FAA3DD21BAFD81200714ACC /* WaterfallsFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3DD11BAFD81200714ACC /* WaterfallsFlowTests.m */; };
+		1FAA3DDD1BAFD81200714ACC /* WaterfallsFlowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA3DDC1BAFD81200714ACC /* WaterfallsFlowUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAA3DCE1BAFD81200714ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAA3DAC1BAFD81200714ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAA3DB31BAFD81200714ACC;
+			remoteInfo = WaterfallsFlow;
+		};
+		1FAA3DD91BAFD81200714ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAA3DAC1BAFD81200714ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAA3DB31BAFD81200714ACC;
+			remoteInfo = WaterfallsFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAA3DB41BAFD81200714ACC /* WaterfallsFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallsFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAA3DB81BAFD81200714ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FAA3DBA1BAFD81200714ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FAA3DBB1BAFD81200714ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FAA3DBD1BAFD81200714ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FAA3DBE1BAFD81200714ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FAA3DC11BAFD81200714ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FAA3DC31BAFD81200714ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAA3DC61BAFD81200714ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FAA3DC81BAFD81200714ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAA3DCD1BAFD81200714ACC /* WaterfallsFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfallsFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAA3DD11BAFD81200714ACC /* WaterfallsFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfallsFlowTests.m; sourceTree = "<group>"; };
+		1FAA3DD31BAFD81200714ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAA3DD81BAFD81200714ACC /* WaterfallsFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfallsFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAA3DDC1BAFD81200714ACC /* WaterfallsFlowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfallsFlowUITests.m; sourceTree = "<group>"; };
+		1FAA3DDE1BAFD81200714ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAA3DB11BAFD81200714ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3DCA1BAFD81200714ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3DD51BAFD81200714ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAA3DAB1BAFD81200714ACC = {
+			isa = PBXGroup;
+			children = (
+				1FAA3DB61BAFD81200714ACC /* WaterfallsFlow */,
+				1FAA3DD01BAFD81200714ACC /* WaterfallsFlowTests */,
+				1FAA3DDB1BAFD81200714ACC /* WaterfallsFlowUITests */,
+				1FAA3DB51BAFD81200714ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAA3DB51BAFD81200714ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3DB41BAFD81200714ACC /* WaterfallsFlow.app */,
+				1FAA3DCD1BAFD81200714ACC /* WaterfallsFlowTests.xctest */,
+				1FAA3DD81BAFD81200714ACC /* WaterfallsFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAA3DB61BAFD81200714ACC /* WaterfallsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3DBA1BAFD81200714ACC /* AppDelegate.h */,
+				1FAA3DBB1BAFD81200714ACC /* AppDelegate.m */,
+				1FAA3DBD1BAFD81200714ACC /* ViewController.h */,
+				1FAA3DBE1BAFD81200714ACC /* ViewController.m */,
+				1FAA3DC01BAFD81200714ACC /* Main.storyboard */,
+				1FAA3DC31BAFD81200714ACC /* Assets.xcassets */,
+				1FAA3DC51BAFD81200714ACC /* LaunchScreen.storyboard */,
+				1FAA3DC81BAFD81200714ACC /* Info.plist */,
+				1FAA3DB71BAFD81200714ACC /* Supporting Files */,
+			);
+			path = WaterfallsFlow;
+			sourceTree = "<group>";
+		};
+		1FAA3DB71BAFD81200714ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3DB81BAFD81200714ACC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FAA3DD01BAFD81200714ACC /* WaterfallsFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3DD11BAFD81200714ACC /* WaterfallsFlowTests.m */,
+				1FAA3DD31BAFD81200714ACC /* Info.plist */,
+			);
+			path = WaterfallsFlowTests;
+			sourceTree = "<group>";
+		};
+		1FAA3DDB1BAFD81200714ACC /* WaterfallsFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA3DDC1BAFD81200714ACC /* WaterfallsFlowUITests.m */,
+				1FAA3DDE1BAFD81200714ACC /* Info.plist */,
+			);
+			path = WaterfallsFlowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAA3DB31BAFD81200714ACC /* WaterfallsFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAA3DE11BAFD81200714ACC /* Build configuration list for PBXNativeTarget "WaterfallsFlow" */;
+			buildPhases = (
+				1FAA3DB01BAFD81200714ACC /* Sources */,
+				1FAA3DB11BAFD81200714ACC /* Frameworks */,
+				1FAA3DB21BAFD81200714ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterfallsFlow;
+			productName = WaterfallsFlow;
+			productReference = 1FAA3DB41BAFD81200714ACC /* WaterfallsFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAA3DCC1BAFD81200714ACC /* WaterfallsFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAA3DE41BAFD81200714ACC /* Build configuration list for PBXNativeTarget "WaterfallsFlowTests" */;
+			buildPhases = (
+				1FAA3DC91BAFD81200714ACC /* Sources */,
+				1FAA3DCA1BAFD81200714ACC /* Frameworks */,
+				1FAA3DCB1BAFD81200714ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAA3DCF1BAFD81200714ACC /* PBXTargetDependency */,
+			);
+			name = WaterfallsFlowTests;
+			productName = WaterfallsFlowTests;
+			productReference = 1FAA3DCD1BAFD81200714ACC /* WaterfallsFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FAA3DD71BAFD81200714ACC /* WaterfallsFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAA3DE71BAFD81200714ACC /* Build configuration list for PBXNativeTarget "WaterfallsFlowUITests" */;
+			buildPhases = (
+				1FAA3DD41BAFD81200714ACC /* Sources */,
+				1FAA3DD51BAFD81200714ACC /* Frameworks */,
+				1FAA3DD61BAFD81200714ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAA3DDA1BAFD81200714ACC /* PBXTargetDependency */,
+			);
+			name = WaterfallsFlowUITests;
+			productName = WaterfallsFlowUITests;
+			productReference = 1FAA3DD81BAFD81200714ACC /* WaterfallsFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAA3DAC1BAFD81200714ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MyMac;
+				TargetAttributes = {
+					1FAA3DB31BAFD81200714ACC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1FAA3DCC1BAFD81200714ACC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1FAA3DB31BAFD81200714ACC;
+					};
+					1FAA3DD71BAFD81200714ACC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1FAA3DB31BAFD81200714ACC;
+					};
+				};
+			};
+			buildConfigurationList = 1FAA3DAF1BAFD81200714ACC /* Build configuration list for PBXProject "WaterfallsFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAA3DAB1BAFD81200714ACC;
+			productRefGroup = 1FAA3DB51BAFD81200714ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAA3DB31BAFD81200714ACC /* WaterfallsFlow */,
+				1FAA3DCC1BAFD81200714ACC /* WaterfallsFlowTests */,
+				1FAA3DD71BAFD81200714ACC /* WaterfallsFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAA3DB21BAFD81200714ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAA3DC71BAFD81200714ACC /* LaunchScreen.storyboard in Resources */,
+				1FAA3DC41BAFD81200714ACC /* Assets.xcassets in Resources */,
+				1FAA3DC21BAFD81200714ACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3DCB1BAFD81200714ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3DD61BAFD81200714ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAA3DB01BAFD81200714ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAA3DBF1BAFD81200714ACC /* ViewController.m in Sources */,
+				1FAA3DBC1BAFD81200714ACC /* AppDelegate.m in Sources */,
+				1FAA3DB91BAFD81200714ACC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3DC91BAFD81200714ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAA3DD21BAFD81200714ACC /* WaterfallsFlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAA3DD41BAFD81200714ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAA3DDD1BAFD81200714ACC /* WaterfallsFlowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAA3DCF1BAFD81200714ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAA3DB31BAFD81200714ACC /* WaterfallsFlow */;
+			targetProxy = 1FAA3DCE1BAFD81200714ACC /* PBXContainerItemProxy */;
+		};
+		1FAA3DDA1BAFD81200714ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAA3DB31BAFD81200714ACC /* WaterfallsFlow */;
+			targetProxy = 1FAA3DD91BAFD81200714ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FAA3DC01BAFD81200714ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAA3DC11BAFD81200714ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FAA3DC51BAFD81200714ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAA3DC61BAFD81200714ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FAA3DDF1BAFD81200714ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FAA3DE01BAFD81200714ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAA3DE21BAFD81200714ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterfallsFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.WaterfallsFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FAA3DE31BAFD81200714ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterfallsFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.WaterfallsFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FAA3DE51BAFD81200714ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterfallsFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.WaterfallsFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterfallsFlow.app/WaterfallsFlow";
+			};
+			name = Debug;
+		};
+		1FAA3DE61BAFD81200714ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterfallsFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.WaterfallsFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterfallsFlow.app/WaterfallsFlow";
+			};
+			name = Release;
+		};
+		1FAA3DE81BAFD81200714ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterfallsFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.WaterfallsFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterfallsFlow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1FAA3DE91BAFD81200714ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterfallsFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.WaterfallsFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterfallsFlow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAA3DAF1BAFD81200714ACC /* Build configuration list for PBXProject "WaterfallsFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAA3DDF1BAFD81200714ACC /* Debug */,
+				1FAA3DE01BAFD81200714ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAA3DE11BAFD81200714ACC /* Build configuration list for PBXNativeTarget "WaterfallsFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAA3DE21BAFD81200714ACC /* Debug */,
+				1FAA3DE31BAFD81200714ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FAA3DE41BAFD81200714ACC /* Build configuration list for PBXNativeTarget "WaterfallsFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAA3DE51BAFD81200714ACC /* Debug */,
+				1FAA3DE61BAFD81200714ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FAA3DE71BAFD81200714ACC /* Build configuration list for PBXNativeTarget "WaterfallsFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAA3DE81BAFD81200714ACC /* Debug */,
+				1FAA3DE91BAFD81200714ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAA3DAC1BAFD81200714ACC /* Project object */;
+}
